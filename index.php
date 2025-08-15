@@ -1,11 +1,5 @@
-<?php
-$nombre = "Juan";
-$edad = 25;
-?>
-
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,10 +7,8 @@ $edad = 25;
     <title>Document</title>
 </head>
 <body>
+    <h1>CALCULADORA IMC</h1>
 
-<h1>Hola, <?php echo $nombre; ?>!</h1>
-<p>Tienes <?php echo $edad; ?> años.</p>
-<p>Calcularemos tu IMC para que tomes medidas</p>
 
     <form method="post" action="">
         <label for="kg">Peso (Kg)</label>
